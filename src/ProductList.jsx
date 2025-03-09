@@ -7,21 +7,62 @@ function ProductList({ onHomeClick }) {
     const [addedToCart, setAddedToCart] = useState({});
     const [cartItems, setCartItems] = useState([]);
 
-    const plantsArray = [
-        {
-            category: "Air Purifying Plants",
-            plants: [
-                {
-                    name: "Snake Plant",
-                    image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
-                    description: "Produces oxygen at night, improving air quality.",
-                    cost: "$15"
-                },
-                // ... Other plants for this category
-            ]
-        },
-        // ... Other categories and plants
-    ];
+const plantsArray = [
+    {
+      name: 'Aloe Vera',
+      imageUrl: 'https://example.com/aloe-vera.jpg',
+      description: 'Aloe Vera is a popular succulent plant.',
+      cost: 15.99,
+    },
+    {
+      name: 'Bamboo',
+      imageUrl: 'https://example.com/bamboo.jpg',
+      description: 'Bamboo is a fast-growing plant that is great for indoor decor.',
+      cost: 22.50,
+    },
+    {
+      name: 'Snake Plant',
+      imageUrl: 'https://example.com/snake-plant.jpg',
+      description: 'Snake plant is an easy-to-care-for indoor plant.',
+      cost: 12.75,
+    },
+    {
+      name: 'Cactus',
+      imageUrl: 'https://example.com/cactus.jpg',
+      description: 'Cactus is a low-maintenance plant perfect for sunny areas.',
+      cost: 9.99,
+    },
+    {
+      name: 'Fern',
+      imageUrl: 'https://example.com/fern.jpg',
+      description: 'Ferns are lush and thrive in low light conditions.',
+      cost: 19.99,
+    },
+    {
+      name: 'Spider Plant',
+      imageUrl: 'https://example.com/spider-plant.jpg',
+      description: 'Spider plants are great air purifiers and easy to grow.',
+      cost: 14.99,
+    },
+    {
+      name: 'Peace Lily',
+      imageUrl: 'https://example.com/peace-lily.jpg',
+      description: 'Peace Lily is an elegant plant known for its white blooms.',
+      cost: 24.99,
+    },
+    {
+      name: 'Orchid',
+      imageUrl: 'https://example.com/orchid.jpg',
+      description: 'Orchids are beautiful flowering plants that require moderate care.',
+      cost: 35.50,
+    },
+    {
+      name: 'Pothos',
+      imageUrl: 'https://example.com/pothos.jpg',
+      description: 'Pothos is a trailing vine plant known for its heart-shaped leaves.',
+      cost: 18.75,
+    },
+];
 
     const styleObj = {
         backgroundColor: '#4CAF50',

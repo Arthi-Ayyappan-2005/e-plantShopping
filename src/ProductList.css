@@ -245,8 +245,7 @@ body {
         flex-direction: column; /* Change flex direction to stack items vertically */
         gap: 10px; /* Add gap between items */
       }
-    
       .ul div {
         text-align: center; /* Align text to the center */
       }
-  }
+    }
