@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ProductList from './ProductList';
+import CartComponent from './CartComponent';
 import CartItem from './CartItem';  // Import CartItem component
 import './App.css';
 
